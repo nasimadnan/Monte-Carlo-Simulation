@@ -40,7 +40,7 @@ for i in range(total_points):
     # Dynamic outputs
     ax.set_title('Estimation of Pi using the Monte Carlo simulation')
     ax.set_xlabel('Current value of Pi: ' + str(pi))
-    ax.set_ylabel('Current number of point: ' + str(i+1))
+    ax.set_ylabel('Current number of points: ' + str(i+1))
 
     plt.pause(0.00001)
 
